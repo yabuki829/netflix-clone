@@ -40,30 +40,40 @@ class HeaderUIView: UIView {
         return button
     }()
     
+    let buttonStackView:UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.distribution = .fillEqually
+        return stackView
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         addSubview(imageView)
         addGradient()
-        addSubview(playButton)
-        addSubview(infoButton)
-        addSubview(myListButton)
+        addSubview(buttonStackView)
+        buttonStackView.addArrangedSubview(infoButton)
+        buttonStackView.addArrangedSubview(playButton)
+        buttonStackView.addArrangedSubview(myListButton)
+        
         applyConstraints()
     }
     
     private func applyConstraints(){
-        playButton.anchor(bottom: self.bottomAnchor,paddingBottom: 20,
-                          width: 100, height: 30)
-        playButton.centerX(inView: self)
         
-        infoButton.anchor( left: playButton.rightAnchor, paddingLeft: 10,
-                           right: self.rightAnchor, paddingRight: 10,
-                           bottom: self.bottomAnchor, paddingBottom: 20,
+        buttonStackView.anchor(left: self.safeAreaLayoutGuide.leftAnchor, paddingLeft: 0,
+                               right: self.safeAreaLayoutGuide.rightAnchor, paddingRight: 0,
+                               bottom: self.safeAreaLayoutGuide.bottomAnchor, paddingBottom: 40,
+                               height: 30 )
+        
+        playButton.anchor(height: 30)
+
+        infoButton.anchor(
                            height: 30)
-        myListButton.anchor(left: self.leftAnchor, paddingLeft: 10,
-                            right: playButton.leftAnchor, paddingRight: 10,
-                           bottom: self.bottomAnchor, paddingBottom: 20,
-                           height: 30)
+
+        myListButton.anchor(
+                            height: 30)
     }
     private func addGradient(){
         let gradientLayer = CAGradientLayer()

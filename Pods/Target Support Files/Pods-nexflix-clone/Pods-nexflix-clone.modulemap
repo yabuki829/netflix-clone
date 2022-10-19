@@ -1,0 +1,6 @@
+framework module Pods_nexflix_clone {
+  umbrella header "Pods-nexflix-clone-umbrella.h"
+
+  export *
+  module * { export * }
+}

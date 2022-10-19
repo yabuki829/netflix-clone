@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0BAA4228FFBAFD00F3D47C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BAA4128FFBAFD00F3D47C /* APIManager.swift */; };
+		1A0BAA4428FFC45300F3D47C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BAA4328FFC45300F3D47C /* Movie.swift */; };
+		1A0BAA4628FFF15B00F3D47C /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BAA4528FFF15B00F3D47C /* CardCollectionViewCell.swift */; };
 		1A5D31D828FD09BE00BE72D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D31D728FD09BE00BE72D7 /* AppDelegate.swift */; };
 		1A5D31DA28FD09BE00BE72D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D31D928FD09BE00BE72D7 /* SceneDelegate.swift */; };
 		1A5D31DC28FD09BE00BE72D7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D31DB28FD09BE00BE72D7 /* MainTabBarViewController.swift */; };
@@ -22,6 +25,9 @@
 		1A5D321628FD1B1B00BE72D7 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D321528FD1B1B00BE72D7 /* CollectionViewTableViewCell.swift */; };
 		1A5D321828FD2A3B00BE72D7 /* HeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D321728FD2A3B00BE72D7 /* HeaderUIView.swift */; };
 		1A5D321A28FD2FAC00BE72D7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D321928FD2FAC00BE72D7 /* Extension.swift */; };
+		75F44D33F84135310CFD5E99 /* Pods_nexflix_cloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89B71249FD393A4010A46EA /* Pods_nexflix_cloneTests.framework */; };
+		BC5859F6847C3548D9179386 /* Pods_nexflix_clone_nexflix_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3E2BA5F0D1E38F770E8308 /* Pods_nexflix_clone_nexflix_cloneUITests.framework */; };
+		DDE0DC0D2E1287A43BEF1ACE /* Pods_nexflix_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DDC6F3AFA26408FB61AE3F /* Pods_nexflix_clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0BAA4128FFBAFD00F3D47C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1A0BAA4328FFC45300F3D47C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1A0BAA4528FFF15B00F3D47C /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		1A5D31D428FD09BE00BE72D7 /* nexflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nexflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5D31D728FD09BE00BE72D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A5D31D928FD09BE00BE72D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +70,15 @@
 		1A5D321528FD1B1B00BE72D7 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		1A5D321728FD2A3B00BE72D7 /* HeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderUIView.swift; sourceTree = "<group>"; };
 		1A5D321928FD2FAC00BE72D7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8C8CED24429C7F77A1DC1D8B /* Pods-nexflix-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-clone.debug.xcconfig"; path = "Target Support Files/Pods-nexflix-clone/Pods-nexflix-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		B923E2D063691F2F1F4F2EDA /* Pods-nexflix-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-clone.release.xcconfig"; path = "Target Support Files/Pods-nexflix-clone/Pods-nexflix-clone.release.xcconfig"; sourceTree = "<group>"; };
+		C7DDC6F3AFA26408FB61AE3F /* Pods_nexflix_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nexflix_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C1CC86ACA157249FFA5F35 /* Pods-nexflix-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-cloneTests.release.xcconfig"; path = "Target Support Files/Pods-nexflix-cloneTests/Pods-nexflix-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA3E2BA5F0D1E38F770E8308 /* Pods_nexflix_clone_nexflix_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nexflix_clone_nexflix_cloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E615D7D9F715B4F79583B5AB /* Pods-nexflix-clone-nexflix-cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-clone-nexflix-cloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-nexflix-clone-nexflix-cloneUITests/Pods-nexflix-clone-nexflix-cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89B71249FD393A4010A46EA /* Pods_nexflix_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nexflix_cloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F476509FBDA6DE29A8CBA361 /* Pods-nexflix-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-cloneTests.debug.xcconfig"; path = "Target Support Files/Pods-nexflix-cloneTests/Pods-nexflix-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F580C61BD5DC4804C06A0579 /* Pods-nexflix-clone-nexflix-cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexflix-clone-nexflix-cloneUITests.release.xcconfig"; path = "Target Support Files/Pods-nexflix-clone-nexflix-cloneUITests/Pods-nexflix-clone-nexflix-cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE0DC0D2E1287A43BEF1ACE /* Pods_nexflix_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F44D33F84135310CFD5E99 /* Pods_nexflix_cloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5859F6847C3548D9179386 /* Pods_nexflix_clone_nexflix_cloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +116,8 @@
 				1A5D31ED28FD09C100BE72D7 /* nexflix-cloneTests */,
 				1A5D31F728FD09C200BE72D7 /* nexflix-cloneUITests */,
 				1A5D31D528FD09BE00BE72D7 /* Products */,
+				F01E869BC94FF68C31C189AD /* Pods */,
+				AEBE3DB32DB54751B272ADAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +182,7 @@
 		1A5D321028FD1AA400BE72D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1A0BAA4328FFC45300F3D47C /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +199,7 @@
 			children = (
 				1A5D321528FD1B1B00BE72D7 /* CollectionViewTableViewCell.swift */,
 				1A5D321728FD2A3B00BE72D7 /* HeaderUIView.swift */,
+				1A0BAA4528FFF15B00F3D47C /* CardCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,8 +214,32 @@
 		1A5D321428FD1AEC00BE72D7 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				1A0BAA4128FFBAFD00F3D47C /* APIManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		AEBE3DB32DB54751B272ADAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDC6F3AFA26408FB61AE3F /* Pods_nexflix_clone.framework */,
+				DA3E2BA5F0D1E38F770E8308 /* Pods_nexflix_clone_nexflix_cloneUITests.framework */,
+				E89B71249FD393A4010A46EA /* Pods_nexflix_cloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F01E869BC94FF68C31C189AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8CED24429C7F77A1DC1D8B /* Pods-nexflix-clone.debug.xcconfig */,
+				B923E2D063691F2F1F4F2EDA /* Pods-nexflix-clone.release.xcconfig */,
+				E615D7D9F715B4F79583B5AB /* Pods-nexflix-clone-nexflix-cloneUITests.debug.xcconfig */,
+				F580C61BD5DC4804C06A0579 /* Pods-nexflix-clone-nexflix-cloneUITests.release.xcconfig */,
+				F476509FBDA6DE29A8CBA361 /* Pods-nexflix-cloneTests.debug.xcconfig */,
+				D8C1CC86ACA157249FFA5F35 /* Pods-nexflix-cloneTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A5D31FE28FD09C200BE72D7 /* Build configuration list for PBXNativeTarget "nexflix-clone" */;
 			buildPhases = (
+				62241E59BFC34DE6AA68551E /* [CP] Check Pods Manifest.lock */,
 				1A5D31D028FD09BE00BE72D7 /* Sources */,
 				1A5D31D128FD09BE00BE72D7 /* Frameworks */,
 				1A5D31D228FD09BE00BE72D7 /* Resources */,
+				C08A0D24289D63BF7D64DB34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A5D320128FD09C200BE72D7 /* Build configuration list for PBXNativeTarget "nexflix-cloneTests" */;
 			buildPhases = (
+				B805BED46166311AB9A5D80F /* [CP] Check Pods Manifest.lock */,
 				1A5D31E628FD09C100BE72D7 /* Sources */,
 				1A5D31E728FD09C100BE72D7 /* Frameworks */,
 				1A5D31E828FD09C100BE72D7 /* Resources */,
@@ -235,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A5D320428FD09C200BE72D7 /* Build configuration list for PBXNativeTarget "nexflix-cloneUITests" */;
 			buildPhases = (
+				BA303024694A65B0F3AE36FC /* [CP] Check Pods Manifest.lock */,
 				1A5D31F028FD09C200BE72D7 /* Sources */,
 				1A5D31F128FD09C200BE72D7 /* Frameworks */,
 				1A5D31F228FD09C200BE72D7 /* Resources */,
+				B3668563888B6FCF79A28B9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +372,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62241E59BFC34DE6AA68551E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nexflix-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3668563888B6FCF79A28B9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone-nexflix-cloneUITests/Pods-nexflix-clone-nexflix-cloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone-nexflix-cloneUITests/Pods-nexflix-clone-nexflix-cloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone-nexflix-cloneUITests/Pods-nexflix-clone-nexflix-cloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B805BED46166311AB9A5D80F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nexflix-cloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA303024694A65B0F3AE36FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nexflix-clone-nexflix-cloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08A0D24289D63BF7D64DB34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone/Pods-nexflix-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone/Pods-nexflix-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nexflix-clone/Pods-nexflix-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A5D31D028FD09BE00BE72D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -325,9 +482,12 @@
 			files = (
 				1A5D320D28FD0E1900BE72D7 /* SearchViewController.swift in Sources */,
 				1A5D31DC28FD09BE00BE72D7 /* MainTabBarViewController.swift in Sources */,
+				1A0BAA4428FFC45300F3D47C /* Movie.swift in Sources */,
 				1A5D321628FD1B1B00BE72D7 /* CollectionViewTableViewCell.swift in Sources */,
 				1A5D321828FD2A3B00BE72D7 /* HeaderUIView.swift in Sources */,
+				1A0BAA4228FFBAFD00F3D47C /* APIManager.swift in Sources */,
 				1A5D31D828FD09BE00BE72D7 /* AppDelegate.swift in Sources */,
+				1A0BAA4628FFF15B00F3D47C /* CardCollectionViewCell.swift in Sources */,
 				1A5D321A28FD2FAC00BE72D7 /* Extension.swift in Sources */,
 				1A5D320F28FD0E5900BE72D7 /* DownloadViewController.swift in Sources */,
 				1A5D320B28FD0DF500BE72D7 /* UpcommingViewController.swift in Sources */,
@@ -496,6 +656,7 @@
 		};
 		1A5D31FF28FD09C200BE72D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8CED24429C7F77A1DC1D8B /* Pods-nexflix-clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -523,6 +684,7 @@
 		};
 		1A5D320028FD09C200BE72D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B923E2D063691F2F1F4F2EDA /* Pods-nexflix-clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -550,6 +712,7 @@
 		};
 		1A5D320228FD09C200BE72D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F476509FBDA6DE29A8CBA361 /* Pods-nexflix-cloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +733,7 @@
 		};
 		1A5D320328FD09C200BE72D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C1CC86ACA157249FFA5F35 /* Pods-nexflix-cloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -590,6 +754,7 @@
 		};
 		1A5D320528FD09C200BE72D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E615D7D9F715B4F79583B5AB /* Pods-nexflix-clone-nexflix-cloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +773,7 @@
 		};
 		1A5D320628FD09C200BE72D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F580C61BD5DC4804C06A0579 /* Pods-nexflix-clone-nexflix-cloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
