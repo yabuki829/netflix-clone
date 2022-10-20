@@ -52,7 +52,9 @@ extension CollectionViewTableViewCell:UICollectionViewDelegate,UICollectionViewD
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return movies.count
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(movies[indexPath.row])
+    }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         print(indexPath.row)
@@ -60,10 +62,11 @@ extension CollectionViewTableViewCell:UICollectionViewDelegate,UICollectionViewD
         cell.backgroundColor = .black
         
         
-        guard let model = movies[indexPath.row].poster_path else {
-            return cell
-        }
-        cell.configure(with: model)
+        let model = movies[indexPath.row].poster_path ?? ""
+        let title = movies[indexPath.row].original_title ?? movies[indexPath.row].original_name ?? "Unknow"
+        
+        
+        cell.configure(with: model, title:title )
         
         return cell
     }

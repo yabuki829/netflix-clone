@@ -14,12 +14,21 @@ class CardCollectionViewCell: UICollectionViewCell {
     let movieImageView:UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
-        imageView.image = UIImage(named: "ファンタスティックビースト")
         return imageView
+    }()
+    let titleLabel:UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 16)
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        label.textColor = .white
+        label.layer.zPosition = -1
+        return label
     }()
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(movieImageView)
+        contentView.addSubview(titleLabel)
     }
     
     required init?(coder: NSCoder) {
@@ -29,10 +38,14 @@ class CardCollectionViewCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         movieImageView.frame = contentView.bounds
+        titleLabel.frame = contentView.bounds
     }
 
     
-    public func configure(with model: String ){
+    public func configure(with model: String,title:String ){
+        
+        titleLabel.text = title
+        
         guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model)") else {return}
         movieImageView.loadImage(with:url)
     }

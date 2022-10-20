@@ -22,5 +22,6 @@ struct Movie:Codable {
     let vote_count: Int
     let release_date: String?
     let vote_average: Double
+    var backdrop_path:String?
 }
 

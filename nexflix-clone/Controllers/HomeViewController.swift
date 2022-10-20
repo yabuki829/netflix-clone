@@ -55,6 +55,12 @@ class HomeViewController: UIViewController {
             }
         }
     }
+    @objc func pushSearchView(){
+        print("遷移します")
+        let vc = SearchViewController()
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
     
     private func configureNavBar(){
@@ -67,7 +73,7 @@ class HomeViewController: UIViewController {
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: UIImage(systemName: "person.circle.fill"), style: .plain, target: self, action: nil),
             UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .plain, target: self, action: nil),
-            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
+            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(pushSearchView))
         ]
         navigationController?.navigationBar.tintColor = .white
     }
