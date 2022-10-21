@@ -29,7 +29,10 @@ class MainTabBarViewController: UITabBarController {
         vc2.tabBarItem.selectedImage = UIImage(systemName: "play.rectangle.on.rectangle.fill")
         vc3.tabBarItem.selectedImage = UIImage(systemName: "arrow.down.circle.fill")
         
-        tabBar.tintColor = .label
+        tabBar.tintColor = .white
+        tabBar.unselectedItemTintColor = .gray
+        tabBar.barTintColor = .black
+        
         setViewControllers([vc1,vc2,vc3], animated: true)
     }
 

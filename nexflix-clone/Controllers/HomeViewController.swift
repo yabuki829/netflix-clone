@@ -66,7 +66,7 @@ class HomeViewController: UIViewController {
     private func configureNavBar(){
         //logo画像のサイズが大きいと真ん中に表示される
         // 40*40に変更する
-        var logoImage = UIImage(named: "netflix_logo")
+        var logoImage = UIImage(named: "netflix_logo_48")
         logoImage = logoImage?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: logoImage, style: .plain, target: self, action: nil)
         navigationController?.navigationBar.backgroundColor = .black
@@ -76,6 +76,8 @@ class HomeViewController: UIViewController {
             UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(pushSearchView))
         ]
         navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.barTintColor = .black
+//        navigationController?.navigationBar.tintColor = .black
     }
     
 

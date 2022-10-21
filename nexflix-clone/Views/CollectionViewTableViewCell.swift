@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class CollectionViewTableViewCell: UITableViewCell {
 
     static let  identifier = "CollectionViewTableViewCell"
@@ -17,6 +19,7 @@ class CollectionViewTableViewCell: UITableViewCell {
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: 120, height: 180)
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        cv.backgroundColor = .black
         cv.register(CardCollectionViewCell.self, forCellWithReuseIdentifier: CardCollectionViewCell.identifier)
         return cv
     }()

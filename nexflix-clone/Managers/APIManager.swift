@@ -23,7 +23,7 @@ class APIManager{
     
     
     func getTrendMovies(completion: @escaping (Result<[Movie], Error>) -> Void){
-        guard let url = URL(string: "\(Constants.baseURL)/3/trending/all/day?api_key=\(Constants.API_KEY)") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/trending/all/day?api_key=\(Constants.API_KEY)&language=ja") else { return }
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data ,error == nil else {
                 return
@@ -39,7 +39,6 @@ class APIManager{
         }
         task.resume()
     }
-    //https://api.themoviedb.org/3/movie/upcoming?api_key=<<api_key>>&language=ja&page=1
     
     func getUpComingMovies(completion: @escaping (Result<[Movie], Error>) -> Void){
         guard let url = URL(string: "\(Constants.baseURL)/3/movie/upcoming?api_key=\(Constants.API_KEY)&language=ja") else { return }
